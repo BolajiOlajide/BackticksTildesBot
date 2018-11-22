@@ -29,4 +29,4 @@ module.exports = {
             screen_name: user
         });
     }
-}
+};
