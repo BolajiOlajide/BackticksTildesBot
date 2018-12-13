@@ -1,18 +1,19 @@
 {
-  "name": "botsofcode",
-  "version": "1.0.1",
-  "description": "A bot for Backticks & TIldes",
+  "name": "BackticksTIldesBot",
+  "version": "1.0.0",
+  "description": "A bot for Backticks & TIldes - A fork of Ire Aderinokun's botofcode",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "ire-aderinokun",
+  "author": "Bolaji Olajide",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "express": "*",
     "path": "*",
     "twit": "*"
   },
   "engines": {
-    "node": "*"
+    "node": ">8"
   }
 }

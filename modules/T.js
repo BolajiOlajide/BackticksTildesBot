@@ -1,4 +1,7 @@
 const Twit = require('twit');
+require('dotenv').config();
+
+
 module.exports = new Twit({
     consumer_key: process.env.consumer_key,
     consumer_secret: process.env.consumer_secret,
